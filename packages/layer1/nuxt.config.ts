@@ -6,4 +6,8 @@ export default defineNuxtConfig({
   $meta: {
     name: "layer1",
   },
+
+  modules: [
+    '@nuxt/test-utils/module'
+  ]
 });
