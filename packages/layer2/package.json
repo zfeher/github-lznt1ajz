@@ -10,10 +10,9 @@
     "postinstall": "nuxt prepare",
     "test": "vitest run"
   },
-  "dependencies": {
-    "nuxt": "^3.17.4"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "nuxt": "^3.17.4",
     "@nuxt/test-utils": "latest",
     "happy-dom": "17.4.7",
     "playwright-core": "1.52.0",
