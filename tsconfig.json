@@ -1,3 +1,16 @@
 {
-  "extends": "./.nuxt/tsconfig.json"
+  "compilerOptions": {
+    "disableReferencedProjectLoad": true
+  },
+
+  "files": [],
+
+  "references": [
+    {
+      "path": "./packages/layer1/tsconfig.json"
+    },
+    {
+      "path": "./packages/layer2/tsconfig.json"
+    }
+  ]
 }

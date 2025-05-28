@@ -1,5 +1,7 @@
-import { defineVitestConfig } from '@nuxt/test-utils/config'
+import { defineConfig } from "vitest/config";
 
-export default defineVitestConfig({
-  // any custom vitest config you require
-})
+export default defineConfig({
+  test: {
+    workspace: ["packages/*/vitest.config.ts"],
+  },
+});
